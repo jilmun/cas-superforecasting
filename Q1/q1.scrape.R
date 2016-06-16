@@ -2,6 +2,7 @@ require(dplyr)
 require(rvest)
 
 options(stringsAsFactors = FALSE)
+setwd("~/cas-superforecasting/Q1")
 
 url_base <- "http://securities.stanford.edu/list-mode.html?page="
 tbl.clactions <- data.frame(
@@ -11,7 +12,7 @@ tbl.clactions <- data.frame(
   "Exchange" = character(0),
   "Ticker" = character(0) )
 
-for (i in 1:ceiling(4149/20)) {  # total filings: 4149, listed 20 per page
+for (i in 1:ceiling(4171/20)) {  # total filings: 4171, listed 20 per page
   url <- paste0(url_base, i)
   tbl.page <- url %>%
     read_html() %>%
