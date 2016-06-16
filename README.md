@@ -10,4 +10,4 @@ _Select probabilities based on following options._
 | ID     | Option A          | Option B            | Option C            | Option D          |
 |--------|-------------------|---------------------|---------------------|-------------------|
 | Q1     | less than 90      | 90 to 99            | 100 to 109          | 110 or more       |
-| Q2     | [0 , 2154)        | [2154 , 2200)       | [2200 , 2243)       | [2243 , inf )     |
+| Q2     | [ 0 , 2154 )      | [ 2154 , 2200 )     | [ 2200 , 2243 )     | [ 2243 , inf )    |
